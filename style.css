@@ -1,0 +1,259 @@
+*{
+    font-family: "TikTok Sans", sans-serif;
+}
+
+/* navbar */
+.mylogo{
+    height: 50px;
+    width: 55px;
+}
+
+.navbar{
+    background-color: #ffffff;
+}
+
+.navbar li{
+    margin-left: 20px;
+    padding: 5px;    
+}
+
+.nav-item a{
+    color: black;
+}
+
+.nav-item a:hover{
+    color:  rgb(247, 166, 26);
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    cursor: pointer;
+}
+
+
+.intro{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.social i{
+    font-size: 40px;
+    color: black;
+}
+.social i:hover{
+    color: #f4b46f;
+}
+
+ .myprofilepic{
+    transition: transform 0.5s ease-in-out;
+    }
+.myprofilepic:hover {
+    transform: translateX(-50px);
+    filter: drop-shadow(2px 4px 6px rgb(247, 166, 26));
+
+}
+
+/* typing text animation */
+
+.typinganime::after {
+  color: #ff6600;
+  content: "";
+  animation: typing 8s infinite;
+}
+
+@keyframes typing {
+  0%, 25% { content: "Frontend Devlopment."; }
+  26%, 50% { content: "Backend Development."; }
+  51%, 75% { content: "Mobile App Development."; }
+  76%, 100% { content: "Web Development."; }
+}
+
+
+
+
+/* about section */
+
+
+.summary{
+    text-align: justify;
+    transition: transform 0.5s ease-in-out;
+}
+.summary:hover{
+    transform: translateX(-50px);
+}
+
+
+.empass{
+    transition: transform 0.5s ease-in-out;
+}
+.empass:hover{
+    transform: translateX(-50px);
+}
+
+
+
+.resumedown {
+  background-color:  rgb(247, 166, 26);
+  color: white;  
+  padding: 9px 24px;   
+  text-decoration: none;   
+  border-radius: 5px;       
+  display: inline-block;    
+  font-size: 16px;
+  transition: background 0.3s;
+}
+.resumedown:hover {
+   background-color: rgb(225, 153, 85);
+}
+
+/* skills */
+
+
+.skill-box {
+  background: linear-gradient(135deg, #f8bc74, #ffedd5);
+  height: 110px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  cursor: pointer;
+}
+
+.skill-box img {
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+
+
+/* education */
+
+.myeducation {
+  background-color: #f1f5f9;
+}
+
+
+.myeducation .card {
+  background-color: white;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+
+}
+
+.myeducation .card:hover {
+  transform: translateY(-10px);
+}
+
+
+.myeducation img {
+  height: 120px;
+  object-fit: cover;
+}
+
+.myeducation h5 {
+  color: rgb(247, 166, 26);
+  font-weight: 400;
+}
+
+
+.myprojects {
+  background: linear-gradient(135deg, #f1f5f9, #f4b46f);
+}
+
+
+.project-card {
+  background: #e2e8f0;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+
+.project-card img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-body {
+  padding: 15px;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+
+/* contact */
+
+.mycontact {
+  background-color: #f1f5f9;
+}
+
+.contact img {
+  object-fit: cover;
+}
+
+.contact .form-control {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f1f5f9;
+  
+}
+
+.formside button {
+  padding: 10px 25px;
+  border-radius: 10px;
+  background: #3b0ca3;
+  color: white;
+  border: none;
+  box-shadow: 0 5px 15px rgba(59, 12, 163, 0.4);
+  transition: 0.3s;
+}
+
+.formside button:hover {
+  background: #4c1d95;
+  transform: translateY(-2px);
+}
+
+/* footer */
+
+footer {
+  background: #f97316;
+  color:#f97316;
+}
+
+footer .row{
+  background-color:  #e2e8f0;
+}
+
+footer h2 {
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+
+.navlist a{
+  color: #f97316;
+  text-decoration: none;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+.contacticons a {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #f97316;
+  transition: 0.3s;
+}
+
+.contacticons a:hover {
+  color: #ffe0b2;
+  transform: scale(1.2);
+}
+

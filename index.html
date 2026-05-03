@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mozilla+Headline:wght@200..700&family=Saira:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./medias/favicon1.png">
+    <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- bootstrap cdn -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- navbar -->
+   <nav class="navbar navbar-expand-lg sticky-top ">
+  <div class="container-fluid px-3">
+
+    <!-- logoname -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="./medias/gjlogo1.png" alt="logo" class="mylogo">
+      <span class="ms-2 ">GODWIN</span>
+    </a>
+
+    <!-- Toggle Button -->
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav text-center">
+
+        <li class="nav-item "><a class="nav-link " href="#myhome">HOME</a></li>
+
+        <li class="nav-item"><a class="nav-link " href="#myskills">SKILLS</a></li>
+
+        <li class="nav-item"><a class="nav-link " href="#myeducation">EDUCATION</a></li>
+
+        <li class="nav-item"><a class="nav-link " href="#myprojects">PROJECTS</a></li>
+
+        <li class="nav-item"><a class="nav-link" href="#mycontact">CONTACT</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+    
+<!-- banner -->
+<section id="myhome" class="banner">
+
+  <!-- background video -->
+  <video autoplay muted loop class="position-absolute w-100 vh-100 object-fit-cover z-n1">
+    <source src="./medias/bannervideo.mp4" type="video/mp4">
+  </video>
+
+  <div class="container min-vh-100 d-flex justify-content-center align-items-center ">
+
+    <div class=" row w-100 ">
+      <!-- leftside -->
+      <div class="col-lg-6 col-md-12 text-center text-lg-start">
+
+        <div class=" mb-4  mt-5" >
+          <p class="intro ">Hi there, I'm 
+            <span class="text-warning">Godwin</span> Joy.</p>
+          <p style="font-size: 35px;font-weight: 500;"> I'm into <span class="typinganime"></span></p>
+        </div>
+
+        <!-- aboutbutton -->
+        <a href="#myabout" class="btn btn-warning px-5 py-2 mb-3  fs-4 rounded-5">About Me <i class="fa-solid fa-arrow-pointer ms-2"></i>
+        </a>
+
+        <!-- social media icons -->
+        <ul class="social d-flex justify-content-center justify-content-lg-start gap-1 list-unstyled mt-3">
+          <li><a href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github fa-xl"></i></a></li>
+          <li><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook fa-xl"></i></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram fa-xl"></i></a></li>
+          <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a></li>
+        </ul>
+
+      </div>
+
+      <!-- righhtside -->
+      <div class="col-lg-6 col-md-12 d-flex justify-content-end align-items-center mt-4 mt-lg-0">
+        <img class="myprofilepic" src="./medias/myphoto1.png" alt="mernpic"  style="height: 350px;">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    <!-- about -->
+     <section id="myabout" class="about py-5">
+        <h1 style="text-align: center;font-size: 50px; font-weight: 700;" class="py-4" >About Me</h1>
+        
+        <div class="container">
+            <div class="row p-1">
+                <div class="col-lg-6 col-md-12 d-flex justify-content-center justify-content-lg-end pt-5 pe-lg-5">
+                    <img class="myphoto rounded-4" src="./medias/myphoto.jpeg" height="380px" width="320px" alt="">
+                </div>
+                <div class="col-lg-6 col-md-12 pt-5">
+                    <div class="rightbio  text-center  text-lg-start">
+                    <h3 class="empass">I'm Godwin</h3>
+                    <h5 class="empass">Full Stack Developer</h5>
+                    <p class="summary">Computer Science Engineering graduate with hands-on experience in MERN stack development (MongoDB, Express.js, React.js, Node.js). Skilled in building full-stack web applications, developing RESTful APIs, implementing CRUD operations, and designing responsive user interfaces using Tailwind CSS and Bootstrap. Strong understanding of frontend-backend integration and modern JavaScript development. Seeking an entry-level Frontend or MERN Stack Developer role to contribute technical expertiseand grow within a professional software development team.</p>
+                    <p class="empass"><span style="color:  rgb(247, 166, 26);">Email :</span> godwinjoy277@gmail.com</p>
+                    <p class="empass"><span style="color:  rgb(247, 166, 26);">Place :</span> Thrissur, Kerala, India</p>
+        
+                    <div>
+                        <a href="./medias/godwinjoyresume.pdf" download="godwinresume" class="resumedown">Download Resume <i class="fa-solid fa-download "></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+     </section>
+
+     <!-- skills -->
+      <section id="myskills" class="py-5 ">
+        <div class="container">
+
+            <h1 style="font-size: 50px; font-weight: 700;" class="text-center mb-5">Skills & Abilities</h1>
+
+            <div class="row g-4 px-5 text-center">
+
+            <!-- Skillitems -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png">
+                <p>HTML</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1920px-CSS3_logo_and_wordmark.svg.png">
+                <p>CSS</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/960px-Bootstrap_logo.svg.png">
+                <p>Bootstrap</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/3840px-Tailwind_CSS_Logo.svg.png">
+                <p>Tailwind CSS</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png">
+                <p>JavaScript</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://logowik.com/content/uploads/images/express-js1720895488.logowik.com.webp">
+                <p>Express JS</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-nodejs-icon-svg-download-png-226035.png">
+                <p>Node JS</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/960px-MongoDB_Logo.svg.png">
+                <p>MongoDB</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png">
+                <p>React</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png">
+                <p>Redux</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-postman-logo-icon-svg-download-png-2945092.png">
+                <p>Postman</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+                <p>GitHub</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1280px-Git_icon.svg.png">
+                <p>Git</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-svg-vector.svg">
+                <p>Netlify</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://www.svgrepo.com/show/354513/vercel-icon.svg">
+                <p>Vercel</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-box">
+                <img src="https://static.cdnlogo.com/logos/m/79/material-ui_thumb.png">
+                <p>Material UI</p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+      <!-- education -->
+       <section id="myeducation" class="myeducation py-5 mt-5">
+        <div class="container">
+
+            <h1 class="text-center mb-5" style="font-size: 50px; font-weight: 700;">My Education</h1>
+
+            <div class="row g-4 justify-content-center">
+
+            <div class="col-lg-8 col-md-10 col-sm-12">
+                <div class="card shadow-lg border-0 rounded-4">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center p-3">
+                    <img src="https://www.eduska.com/assets/user_photo/9af997c0703323bbf04ea3bfec92f4fb.jpg"
+                        class="img-fluid rounded-3" alt="college">
+                    </div>
+
+                    
+                    <div class="col-md-8">
+                    <div class="card-body ">
+                        <h5 class="text-warning ">
+                        Bachelor of Technology in Computer Science
+                        </h5>
+                        <h6 class="fw-light">IES College of Engineering</h6>
+                        <p class="mb-0 text-muted">2021 - 2025</p>
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-md-10 col-sm-12">
+                <div class="card shadow-lg border-0 rounded-4">
+                <div class="row align-items-center">
+
+                    <div class="col-md-4 text-center p-3">
+                    <img src="https://schoolwiki.in/images/1/14/22051_17.jpeg"
+                        class="img-fluid rounded-3" alt="school">
+                    </div>
+
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="text-warning ">Computer Science</h5>
+                        <h6 class="fw-light">St. Thomas HSS</h6>
+                        <p class="mb-0 text-muted">2019 - 2021</p>
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </section>
+
+       <!-- projects -->
+       <section id="myprojects" class=" myprojects py-5">
+        <div class="container">
+
+            <h1 class="text-center mb-5" style="font-size: 50px;font-weight: 700;">Projects</h1>
+
+            <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                <img src="./medias/project1.png" class="img-fluid">
+                <div class="project-body text-center">
+                    <h5>Furniture Website</h5>
+                    <button class="btn btn-warning"><a href="https://bejewelled-peony-54efbe.netlify.app/" target="_blank" class="btn view-btn">View</a></button>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                <img src="./medias/project2.png" class="img-fluid">
+                <div class="project-body text-center">
+                    <h5>Gamify Website</h5>
+                    <button class="btn btn-warning"><a href="https://gamify-steel.vercel.app/" target="_blank" class="btn view-btn">View</a></button>
+                </div>
+                </div>
+            </div>
+
+           
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                <img src="./medias/project3.png" class="img-fluid">
+                <div class="project-body text-center">
+                    <h5>E-commerce</h5>
+                    <button class="btn btn-warning"><a href="https://dailycartecommerce.vercel.app/" target="_blank" class="btn view-btn">View</a></button>
+                </div>
+                </div>
+            </div>
+
+           
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                <img src="./medias/project4.png" class="img-fluid">
+                <div class="project-body text-center">
+                    <h5>Resume Builder</h5>
+                   <button class="btn btn-warning"> <a href="https://resume-builder-e2g6.vercel.app/" target="_blank" class="btn view-btn">View</a></button>
+                </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                <img src="./medias/project5.png" class="img-fluid">
+                <div class="project-body text-center">
+                    <h5>Chat App</h5>
+                    <button class="btn btn-warning"><a href="https://chatapp-frontend-nu-mauve.vercel.app/" target="_blank" class="btn view-btn">View</a></button>
+                </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                <img src="./medias/project6.png" class="img-fluid">
+                <div class="project-body text-center">
+                    <h5>Employee Manager</h5>
+                    <button class="btn btn-warning"><a href="https://employeemanager-frontend.vercel.app/" target="_blank" class="btn view-btn">View</a></button>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </section>
+
+        <!-- contact -->
+         <section id="mycontact" class="contact py-5">
+            <div class="container p-5 ">
+
+                <h1 class="text-center mb-5" style="font-size: 50px ;font-weight: 700;">Get in Touch</h1>
+
+                <div class="row shadow-lg rounded-4">
+
+                <div class="col-lg-6 px-5">
+                    <img src="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg" class="img-fluid h-100 w-100 object-fit-cover">
+                </div>
+
+                <div class="formside col-lg-6 col-md-12 bg-white p-5 mt-5 rounded-3">
+
+                    <form>
+
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Phone">
+                    </div>
+
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="text-end">
+                        <button >Submit <i class="fa fa-paper-plane"></i></button>
+                    </div>
+
+                    </form>
+
+                </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- footer -->
+          <footer id="myfooter" class="py-5">
+            <div class="container">
+
+                <div class="row p-5 rounded-4 shadow-lg">
+
+                <div class="col-lg-4 col-md-6 col-12 text-lg-start text-sm-center ">
+                    <h2>Godwin's Portfolio</h2>
+                    <p class="footer-text">
+                    Thank you for visiting my personal portfolio website. Connect with me over socials.
+                    </p>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-6 col-12 text-lg-start text-sm-center ">
+                    <h2>See More</h2>
+                    <ul class="navlist list-unstyled ">
+                    <li><i class="fa-solid fa-arrow-right"></i> <a href="#myhome">Home</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i> <a href="#myabout">About</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i> <a href="#myskills">Skills</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i> <a href="#myeducation">Education</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i> <a href="#myprojects">Projects</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i> <a href="#mycontact">Contact</a></li>
+                    </ul>
+                </div>
+
+               
+                <div class="col-lg-4 col-md-12 col-12 text-lg-start text-sm-center">
+                    <h2>Contact Now</h2>
+                    <ul class="list-unstyled ">
+                    <li>+91 XXX-XXX-XXXX</li>
+                    <li>godwinjoy277@gmail.com</li>
+                    <li>Thrissur, Kerala</li>
+                    </ul>
+
+                    <!-- Social Icons -->
+                    <div class="contacticons mt-3">
+                    <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    </div>
+                </div>
+
+                </div>
+
+                <div class="text-center mt-4 pt-3 border-top text-light">
+                <p>© 2026 MyPortfolio. All rights reserved.Designed by Godwin.</p>
+                </div>
+
+            </div>
+        </footer>
+</body>
+</html>
+
